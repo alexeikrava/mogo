@@ -16,6 +16,15 @@ body{
     margin: 0;
 }
 
+hr{
+	display: block;
+	width: 100%;
+	border: 0;
+	margin: 40px 0;
+	height: 1px;
+	background-color: #e5e5e5;
+}
+
 /*Container*/
 .container{
 	width: 100%;
@@ -225,6 +234,12 @@ body{
 	padding: 80px 0;
 }
 
+.section--devies{
+	background: url(../img/devies-bg.jpg) center no-repeat ;
+	-webkit-backgroud-size: cover;
+	background-size: cover;
+}
+
 .section__header{
 	width: 100%;
 	max-width: 950px;
@@ -346,4 +361,58 @@ body{
 	font-size: 14px;
 	text-transform: uppercase;
 	line-height: 1;
+}
+
+/*servies*/
+
+.servies{
+	display: flex;
+}
+
+.servies__item{
+	flex: 1 1 0;
+    position: relative;
+	padding-left: 85px;
+	padding-right: 35px;
+}
+
+.servies__icon{
+	position: absolute;
+	top: 0;
+	left: 28px;
+	z-index: 1;
+}
+
+.servies__title{
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #333;
+	text-transform: uppercase;
+	
+}
+
+.servies__text{
+	font-size: 15px;
+	color: #999;
+
+}
+
+/* Devies */
+.devies{
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.devies__item{
+	display: block;
+
+}
+
+.devies__item--iphone {
+	position: absolute;
+	bottom: -30px;
+	right: 0;
+	z-index: 1;
 }
