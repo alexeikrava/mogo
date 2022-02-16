@@ -52,7 +52,7 @@ hr{
 .intro__inner{
 	width: 100%;
 	max-width: 1000px;
-	margin: o auto;
+	margin: 0 auto;
 	text-align: center;
 	
 }
@@ -397,22 +397,23 @@ hr{
 
 }
 
-/* Devies */
-.devies{
+/* Devices */
+.devices{
 	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
 	position: relative;
 }
 
-.devies__item{
+.devices__item{
 	display: block;
 
 }
 
-.devies__item--iphone {
+.devices__item--iphone {
 	position: absolute;
-	bottom: -30px;
-	right: 0;
+    bottom: -30px;
+    right: 0;
 	z-index: 1;
+	display: block;
 }
